@@ -49,12 +49,3 @@ python main.py --action=test --dataset=snatch
 `
 python eval.py --dataset=snatch
 `
-
-
-# All commands
-`
-python main.py --action=train --dataset=50salads --split=1 & python main.py --action=predict --dataset=50salads --split=1 & python eval.py --dataset=50salads --split=0
-`
-
-
-# In `visualize.py` , provide the required arguments to show the visualization.
