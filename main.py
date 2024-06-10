@@ -37,10 +37,10 @@ channel_mask_rate = 0.3
 # use the full temporal resolution @ 15fps
 sample_rate = 2
 
-vid_list_file = " /home/ec2-user/Sagemaker/ASformer/data/splits/train.split1.bundle"
-vid_list_file_tst = " /home/ec2-user/Sagemaker/ASformer/data/splits/test.split1.bundle"
-features_path = " /home/ec2-user/Sagemaker/ASformer/data/features/"
-gt_path = " /home/ec2-user/Sagemaker/ASformer/data/groundTruth/"
+vid_list_file = "/home/ec2-user/SageMaker/ASformer/data/splits/train.split1.bundle"
+vid_list_file_tst = "/home/ec2-user/SageMaker/ASformer/data/splits/test.split1.bundle"
+features_path = "/home/ec2-user/SageMaker/ASformer/data/features/"
+gt_path = "/home/ec2-user/SageMaker/ASformer/data/groundTruth/"
 
 model_dir = "./{}/".format(args.model_dir) + args.dataset + "/split_" + args.split
 results_dir = "./{}/".format(args.result_dir) + args.dataset + "/split_" + args.split
