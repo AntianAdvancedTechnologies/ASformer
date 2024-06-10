@@ -40,17 +40,6 @@ channel_mask_rate = 0.3
 
 # use the full temporal resolution @ 15fps
 sample_rate = 2
-# sample input features @ 15fps instead of 30 fps
-# for 50salads, and up-sample the output to 30 fps
-# if args.dataset == "50salads":
-#     sample_rate = 2
-
-# # To prevent over-fitting for GTEA. Early stopping & large dropout rate
-# if args.dataset == "gtea":
-#     channel_mask_rate = 0.5
-    
-# if args.dataset == 'breakfast':
-#     lr = 0.0001
 
 vid_list_file = "ASformer/data/splits/train.split1.bundle"
 vid_list_file_tst = "ASformer/data/splits/test.split1.bundle"
@@ -69,9 +58,6 @@ if not os.path.exists(results_dir):
     os.makedirs(results_dir)
  
  
-# file_ptr = open(mapping_file, 'r')
-# actions = file_ptr.read().split('\n')[:-1]
-# file_ptr.close()
 
 #Snatch
 # actions = ['Setup', 'first_pull', 'transition', 'explosion', 'final_extension', 'turnover', 'amortization', 'recovery', 'snatch_done', 'No_action']
