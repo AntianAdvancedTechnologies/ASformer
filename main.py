@@ -52,11 +52,10 @@ sample_rate = 2
 # if args.dataset == 'breakfast':
 #     lr = 0.0001
 
-
-vid_list_file = "data/splits/train.split1.bundle"
-vid_list_file_tst = "data/splits/train.split1.bundle"
-features_path = "data/features/"
-gt_path = "data/groundTruth/"
+vid_list_file = "ASformer/data/splits/train.split1.bundle"
+vid_list_file_tst = "ASformer/data/splits/test.split1.bundle"
+features_path = "ASformer/data/features/"
+gt_path = "ASformer/data/groundTruth/"
  
 # mapping_file = "snatch\\mapping.txt"
  
