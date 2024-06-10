@@ -18,9 +18,19 @@ The project contains the following main directories:
 
 - `data/`: This directory contains all the datasets used in the project.
     - `snatch/`: This sub-directory contains the dataset related to the 'Snatch' weightlifting technique.
-        - `features/`: This sub-directory contains the features dataset for 'Snatch'.
+        - `features/`
+        - `groundTruth/`
+        - `gt_array/`
+        - `gt_boundary_array/`
+        - `splits/`
+        - `mapping.txt`
     - `cleanjerk/`: This sub-directory contains the dataset related to the 'Clean and Jerk' weightlifting technique.
-        - `features/`: This sub-directory contains the features dataset for 'Clean and Jerk'.
+        - `features/`
+        - `groundTruth/`
+        - `gt_array/`
+        - `gt_boundary_array/`
+        - `splits/`
+        - `mapping.txt`
 
 # To run
 `
