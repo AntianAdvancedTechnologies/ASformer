@@ -24,7 +24,7 @@ The project contains the following main directories:
 
 # To run
 `
-python Asformer/main.py --action=train --dataset=snatch --split=1/2/3/4/5
+python Asformer/main.py --action=train --dataset=snatch
 `
 
 # To train
